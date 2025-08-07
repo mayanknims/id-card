@@ -32,7 +32,7 @@ export const generatePDF = async (student: StudentData): Promise<Blob> => {
             ID No. ${student.idNumber}
           </div>
           
-          <div style="font-size: 23.4px; font-family: Arial, sans-serif; text-align: left; padding-left: 79.68px; padding-right: 50.61px; font-weight: 900; line-height: 1.18; color: #202020;">
+          <div style="font-size: 23.4px; font-family: Arial, sans-serif; text-align: left; padding-left: 79.68px; padding-right: 50.61px; font-weight: 700; line-height: 1.18; color: #202020;">
             <div style="display: flex; margin-bottom: 6px;">
               <div style="width: 190px;">FATHER'S NAME</div>
               <div style="margin-right: 5px;">:</div>
@@ -163,7 +163,7 @@ export const generateImage = async (student: StudentData): Promise<Blob> => {
             ID No. ${student.idNumber}
           </div>
           
-          <div style="font-size: 23.4px; font-family: Arial, sans-serif; text-align: left; padding-left: 79.68px; padding-right: 50.61px; font-weight: 800; line-height: 1.18; color: #202020;">
+          <div style="font-size: 23.4px; font-family: Arial, sans-serif; text-align: left; padding-left: 79.68px; padding-right: 50.61px; font-weight: 700; line-height: 1.18; color: #202020;">
             <div style="display: flex; margin-bottom: 6px;">
               <div style="width: 190px;">FATHER'S NAME</div>
               <div style="margin-right: 5px;">:</div>
